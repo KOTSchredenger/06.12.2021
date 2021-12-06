@@ -29,3 +29,30 @@ int main() {
     }
     return 0;
 }
+
+    
+    
+    
+    
+    int multi(int a, int b) {
+	
+	a*b;
+return a*b;
+}
+
+
+
+int main() {
+
+	int a = 0;
+	int b = 0;
+	char action = '0';
+	std::cout << "Zadaite 2 4isla" << std::endl;
+	std::cin >> a;
+	std::cin >> b;
+	std::cout << "vvedite nuzhnyi simvol" << std::endl;
+	std::cin >> action;
+	if (action == '*') std::cout << multi(a, b); 
+
+
+}
